@@ -42,18 +42,7 @@ module.exports = {
     },
 
     browsersync: {
-        server: {
-            baseDir: './_site',
-            reloadDelay: 2000,
-            debounce: 200,
-            notify: true,
-            ghostMode: {
-                clicks: true,
-                location: true,
-                forms: true,
-                scroll: false
-            }
-        }
+        proxy: 'theme_name.dev'
     },
 
     watch: {
