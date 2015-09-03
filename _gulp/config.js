@@ -3,7 +3,7 @@
 // Define your tasks & variables here
 // ---
 
-var themeName ='theme_name'
+var themeName ='theme_name';
 var themePath = 'src/Frontend/Themes/'+ themeName +'/';
 
 module.exports = {
