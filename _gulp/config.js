@@ -38,7 +38,7 @@ module.exports = {
             themePath + 'Core/Js/loader.js'
 
         ],
-        concatFilename: themePath + 'theme.concat.js', // result filename
+        concatFilename: 'theme.concat.js', // result filename
         jsDest: themePath + 'Core/Js/'
     },
 
