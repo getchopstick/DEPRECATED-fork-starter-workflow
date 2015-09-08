@@ -12,5 +12,4 @@ var config = require('../config');
 gulp.task('watch', ['browsersync'], function () {
     gulp.watch(config.scss.src, ['scss']);
     gulp.watch(config.js.src, ['js--reload']);
-    gulp.watch(config.watch.assets, ['jekyll--rebuild']);
 });
